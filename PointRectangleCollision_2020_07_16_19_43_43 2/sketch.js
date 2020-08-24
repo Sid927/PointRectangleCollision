@@ -1,7 +1,7 @@
 let rx2 = 0;
 let ry2 = 0;
 let hit = false;
-let changableWidth = 500;
+let changableWidth = prompt('What would you like to be the width of the rectangle');
 let height = changableWidth / 2;
 let rx1 = window.innerWidth / 2 - 1 / 2 * changableWidth;
 let ry1 = window.innerHeight / 2 - 1 / 2 * height;
